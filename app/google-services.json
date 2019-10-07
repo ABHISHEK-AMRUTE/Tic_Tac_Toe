@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "339655972199",
+    "firebase_url": "https://newttt-b2b74.firebaseio.com",
+    "project_id": "newttt-b2b74",
+    "storage_bucket": "newttt-b2b74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339655972199:android:2af4f2cb0e192ada",
+        "android_client_info": {
+          "package_name": "com.tictactoe.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339655972199-8rlr3ssf44dei8cqq3ta38trsass059d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tictactoe.myapplication",
+            "certificate_hash": "ad86cdf6a539017a41e44965a0b25fa2fd05c4c3"
+          }
+        },
+        {
+          "client_id": "339655972199-v3aa53s9b658lsasmm8ut73md6cb443m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdBqSiTwffJLHZVqX1S2OaeBCh0ckeJHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339655972199-v3aa53s9b658lsasmm8ut73md6cb443m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

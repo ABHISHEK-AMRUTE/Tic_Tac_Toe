@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4a148c"
+                android:paddingBottom="4dp">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="44dp"
+                    android:layout_height="41dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_apps_black_24dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    ads:layout_constraintStart_toStartOf="parent"
+                    ads:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/help"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    ads:layout_constraintEnd_toEndOf="parent"
+                    ads:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingTop="8dp"
+                    android:text="TIC TAC TOE"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    ads:layout_constraintEnd_toStartOf="@+id/button5"
+                    ads:layout_constraintStart_toEndOf="@+id/button"
+                    ads:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FD000000" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="32dp"
+                android:padding="8dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    ads:cardCornerRadius="7dp"
+                    ads:cardElevation="5dp"
+                    ads:cardMaxElevation="5dp"
+                    ads:layout_constraintBottom_toBottomOf="parent"
+                    ads:layout_constraintEnd_toEndOf="parent"
+                    ads:layout_constraintStart_toStartOf="parent"
+                    ads:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#CCB8F1"
+                        android:orientation="vertical"
+                        android:padding="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/a"
+                                android:layout_width="85dp"
+                                android:layout_height="79dp"
+                                android:longClickable="false"
+                                app:srcCompat="@drawable/backtile" />
+
+                            <ImageButton
+                                android:id="@+id/b"
+                                android:layout_width="85dp"
+                                android:layout_height="79dp"
+                                android:longClickable="false"
+                                app:srcCompat="@drawable/backtile" />
+
+                            <ImageButton
+                                android:id="@+id/c"
+                                android:layout_width="85dp"
+                                android:layout_height="79dp"
+                                android:longClickable="false"
+                                app:srcCompat="@drawable/backtile" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/d"
+                                android:layout_width="85dp"
+                                android:layout_height="79dp"
+                                android:longClickable="false"
+                                app:srcCompat="@drawable/backtile" />
+
+                            <ImageButton
+                                android:id="@+id/e"
+                                android:layout_width="86dp"
+                                android:layout_height="79dp"
+                                app:srcCompat="@drawable/backtile" />
+
+                            <ImageButton
+                                android:id="@+id/f"
+                                android:layout_width="86dp"
+                                android:layout_height="79dp"
+                                app:srcCompat="@drawable/backtile" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/g"
+                                android:layout_width="86dp"
+                                android:layout_height="79dp"
+                                app:srcCompat="@drawable/backtile" />
+
+                            <ImageButton
+                                android:id="@+id/h"
+                                android:layout_width="86dp"
+                                android:layout_height="79dp"
+                                app:srcCompat="@drawable/backtile" />
+
+                            <ImageButton
+                                android:id="@+id/i"
+                                android:layout_width="86dp"
+                                android:layout_height="79dp"
+                                app:srcCompat="@drawable/backtile" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/aclonica"
+                android:text="PLAYER ONE CHANCE"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20sp" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_id"></com.google.android.gms.ads.AdView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/Button3"
+                    android:layout_width="40dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/restart"
+                    ads:layout_constraintBottom_toBottomOf="parent"
+                    ads:layout_constraintEnd_toEndOf="parent"
+                    ads:layout_constraintTop_toTopOf="parent"
+                    ads:layout_constraintVertical_bias="0.296" />
+
+                <ImageButton
+                    android:id="@+id/volume"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    ads:layout_constraintStart_toStartOf="parent"
+                    ads:layout_constraintTop_toTopOf="@+id/Button3"
+                    ads:srcCompat="@drawable/full_volume" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Restart"
+                    android:textStyle="bold"
+                    ads:layout_constraintEnd_toEndOf="@+id/Button3"
+                    ads:layout_constraintStart_toStartOf="@+id/Button3"
+                    ads:layout_constraintTop_toBottomOf="@+id/Button3" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Volume"
+                    android:textStyle="bold"
+                    ads:layout_constraintEnd_toEndOf="@+id/volume"
+                    ads:layout_constraintStart_toStartOf="@+id/volume"
+                    ads:layout_constraintTop_toBottomOf="@+id/volume" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
